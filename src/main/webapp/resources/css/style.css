@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 버전 */
+#version {padding: 10px 0 0 0; text-align: right; color: #4a4a4a;}
+
+/* 일정 */
+#schedule {margin: 30px 0 0 0;}
+#schedule h2 {font-size: 30px; margin-bottom: 10px;}
+#schedule table {width: 100%;}
+#schedule table tr th {width: 20%;}
+#schedule table tr td {overflow: hidden; border-right: 1px solid #aaa;}
+#schedule table tr td:last-child {border: 0;}
+#schedule table tr td .match {overflow: hidden;}
+#schedule table tr td .match:nth-child(1) {margin-bottom: 20px;}
+#schedule table tr td .match .match_no {font-size: 14px;}
+#schedule table tr td .match:nth-child(1) .match_no {margin-top: 5px;}
+#schedule table tr td .match .vs {float: left; width: 10%; line-height: 70px;}
+#schedule table tr td .match .team {float: left; width: 45%;}
+#schedule table tr td .match .team img {height: 50px;}
+
+/* 순위 */
+#ranking {margin: 30px 0 30px 0;}
+#ranking h2 {font-size: 30px; margin-bottom: 10px;}
+#ranking table {width: 100%;}
+#ranking table tr {border-bottom: 1px solid #c2c5c9;}
+#ranking table tr:last-child {border: 0;}
+#ranking table th:nth-child(1) {width: 90px;}
+#ranking table th:nth-child(2) {width: 300px;}
+#ranking table th:nth-child(3) {width: 100px;}
+#ranking table th:nth-child(4) {width: 100px;}
+#ranking table th:nth-child(5) {width: 180px;}
+#ranking table th:nth-child(6) {width: 110px;}
+#ranking table th:nth-child(8) {width: 150px;}
+
+#ranking table td {padding: 5px;}
+#ranking table td:nth-child(2) {width: 80px; padding: 0px;}
+#ranking table td:nth-child(3) {width: 160px;}
+
+#ranking table td img {height: 58px;}
+
+#ranking #reference {margin-top: 10px; text-align: right; font-size: 14px;}
+#ranking #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}

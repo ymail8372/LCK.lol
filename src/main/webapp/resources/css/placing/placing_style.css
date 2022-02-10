@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* 팀 순위표 */
+#placeTable_team {margin-top: 30px;}
+#placeTable_team h2 {font-size: 30px; margin-bottom: 10px;}
+#placeTable_team table {width: 100%;}
+#placeTable_team table tr {border-bottom: 1px solid #c2c5c9;}
+#placeTable_team table tr:last-child {border: 0;}
+#placeTable_team table th:nth-child(1) {width: 90px;}
+#placeTable_team table th:nth-child(2) {width: 280px;}
+#placeTable_team table th:nth-child(3) {width: 90px;}
+#placeTable_team table th:nth-child(4) {width: 90px;}
+#placeTable_team table th:nth-child(5) {width: 160px;}
+#placeTable_team table th:nth-child(6) {width: 90px;}
+#placeTable_team table th:nth-child(7) {width: 90px;}
+#placeTable_team table th:nth-child(8) {width: 150px;}
+
+#placeTable_team table td {padding: 5px;}
+#placeTable_team table td:nth-child(2) {width: 80px; padding: 0px;}
+#placeTable_team table td:nth-child(3) {width: 160px;}
+
+#placeTable_team table td img {height: 58px;}
+
+#placeTable_team #reference {margin-top: 10px; text-align: right; font-size: 14px;}
+#placeTable_team #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* 선수 순위표 */
+#placeTable_player {margin-top: 30px;}
+#placeTable_player h2 {font-size: 30px; margin-bottom: 10px;}
+#placeTable_player table {width: 100%; margin: 0 auto;}
+#placeTable_player table tr {border-bottom: 1px solid #c2c5c9;}
+#placeTable_player table tr:last-child {border: 0;}
+
+#placeTable_player table td:nth-child(1) {width: 90px;}
+#placeTable_player table td:nth-child(2) {width: 175px;}
+#placeTable_player table td:nth-child(3) {width: 175px;}
+#placeTable_player table td:nth-child(4) {width: 100px; padding: 0px;}
+#placeTable_player table td:nth-child(5) {width: 165px; padding: 0px;}
+#placeTable_player table td:nth-child(6) {width: 175px;}
+#placeTable_player table td {padding: 5px;}
+
+#placeTable_player table td:nth-child(4) img {width: 36px;}
+#placeTable_player table td:nth-child(5) img {height: 58px;}
+
+#placeTable_player #reference {margin-top: 10px; text-align: right; font-size: 14px;}
+#placeTable_player #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* 진영별 승률 */
+#placeTable_camp {margin-top: 30px; margin-bottom: 30px;}
+#placeTable_camp h2 {font-size: 30px; margin-bottom: 10px;}
+#placeTable_camp table {width: 100%; margin: 0 auto;}
+#placeTable_camp table tr {border-bottom: 1px solid #c2c5c9;}
+#placeTable_camp table tr:last-child {border: 0;}
+
+#placeTable_camp table th:nth-child(1) {width: 400px; background:#6799FF;}
+#placeTable_camp table th:nth-child(2) {width: 200px;}
+#placeTable_camp table th:nth-child(3) {width: 400px; background:#F15F5F;}
+#placeTable_camp table td {padding: 5px;}
+#placeTable_camp table td:nth-child(4) {padding: 0px;}
