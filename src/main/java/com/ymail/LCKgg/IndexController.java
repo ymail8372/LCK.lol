@@ -11,9 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.ymail.LCKgg.placing.Placing_teamDAO;
-import com.ymail.LCKgg.placing.Placing_teamVO;
-
 @Controller
 @SpringBootApplication
 @ComponentScan(basePackages={"com.ymail.LCKgg"})
@@ -36,5 +33,4 @@ public class IndexController {
 		
 		return "home";
 	}
-	
 }

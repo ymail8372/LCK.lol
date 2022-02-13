@@ -3,11 +3,13 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>순위 - LCK.gg</title>
+<title>역대 대회 - LCK.lol</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_15msi_style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
@@ -15,10 +17,12 @@
 	<div id="wrap">
 		<jsp:include page="/WEB-INF/views/include/year_menu.jsp" flush="false"/>
 
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		<!-- 우승 -->
 		<section id="winner">
 			<h2>우승</h2>
-			<table class="table1">
+			<table class="table1 box">
 				<tr class="title">
 					<th colspan="3">우승팀</th>
 				</tr>
@@ -37,7 +41,7 @@
 				</tr>
 			</table>
 			
-			<table class="table2">
+			<table class="table2 box">
 				<tr>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/top_white.png"></th>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/jg_white.png"></th>
@@ -61,7 +65,7 @@
 				</tr>  
 			</table>
 			
-			<table class="table3">
+			<table class="table3 box">
 				<tr>
 					<th>통합 MVP</th>
 				</tr>
@@ -137,7 +141,7 @@
 		<!-- 그룹 스테이지 -->
 		<section id="groups">
 			<h2>그룹 스테이지</h2>
-			<table>
+			<table class="box">
 				<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
 				<tr>
 					<td style="background: #AADDFF;">1</td>

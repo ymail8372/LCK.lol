@@ -4,22 +4,27 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>LCK.gg - LCK의 모든 것</title>
+<title>LCK.lol - LCK의 모든 것</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
-
+	
 	<div id="wrap">
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
+		
 		<!-- 버전 -->
 		<div id="version">일반 버전 - 12.4 , &nbsp; 대회 버전 - 12.3</div>
 	
 		<!-- 일정 -->
 		<section id="schedule">
-			<table>
+			<table class="box">
 				<th colspan="5">2021 LCK spring 정규시즌 1라운드 4주차</th>
 				<tr>
 					<c:forEach items="${schedule_list}" var="u" varStatus="status">
@@ -62,7 +67,7 @@
 		<!-- 순위 -->
 		<section id="ranking">
 			<h2>순위</h2>
-			<table>
+			<table class="box">
 				<th>순위</th><th colspan="2" class="team">팀</th><th class="score">승</th><th class="score">패</th><th>세트 득실</th><th>득실차</th><th>기타</th>
 				<c:forEach items="${team_list}" var="u" varStatus="status">	
 					<c:set var="place" value="${u.place}"/>

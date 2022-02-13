@@ -31,7 +31,7 @@
 #winner .table1 tr .img img {height: 90px;}
 #winner .table1 tr .blank {width: auto;}
 
-#winner .table2 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table2 {overflow: hidden; border-radius: 0;}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
 
@@ -61,7 +61,7 @@
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 30px 0; overflow: hidden;}
+#groups {margin: 30px 0 30px 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
 #groups table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
 #groups table:nth-child(2) {margin-right: 5%; margin-bottom: 3%;}

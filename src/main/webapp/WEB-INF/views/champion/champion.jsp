@@ -3,20 +3,25 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<title>챔피언 통계 - LCK.gg</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/champion/champion_style.css" />
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<meta charset="UTF-8">
+<title>챔피언 통계 - LCK.lol</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/champion/champion_style.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+    	crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
 
 	<div id="wrap">
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
+		
 		<div id="champion_table">
 			<h2>챔피언 통계</h2>
-			<table>
+			<table class="box">
 				<tr>
 					<th colspan="2">챔피언</th><th>픽</th><th>밴</th><th>밴픽률</th><th>승리</th><th>패배</th><th>승률</th>
 				</tr>

@@ -3,21 +3,26 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 <html lang="ko">
 <head>
-	<title>순위 - LCK.gg</title>
-	<meta charset="UTF-8">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/placing/placing_style.css" />
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<title>순위 - LCK.lol</title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/placing/placing_style.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+    crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
 
 	<div id="wrap">
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
+		
 		<!-- 팀 순위표 -->
 		<div id="placeTable_team">
 		<h2>팀 순위</h2>
-			<table>
+			<table class="box">
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th><th>세트 득실</th><th>득실차</th><th>승률</th><th>기타</th>
 				</tr>
@@ -90,7 +95,7 @@
 		<!-- 선수 순위표 -->
 		<div id="placeTable_player">
 		<h2>선수 순위</h2>
-			<table>
+			<table class="box">
 				<tr>
 					<th>순위</th><th colspan="3">선수</th><th colspan="2">소속 팀</th><th>POG 포인트</th>
 				</tr>
@@ -128,7 +133,7 @@
 		<!-- 진영별 승률 -->
 		<div id="placeTable_camp">
 		<h2>진영별 승률</h2>
-			<table>
+			<table class="box">
 				<tr>
 					<th>blue</th><th></th><th>red</th>
 				</tr>

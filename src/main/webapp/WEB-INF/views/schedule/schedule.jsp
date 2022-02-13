@@ -6,20 +6,26 @@
 <%@ page import="java.lang.StringBuilder" %>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<title>LCK.gg - LCK의 모든 것</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/schedule/schedule_style.css" />
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="${pageContext.request.contextPath}/resources/js/schedule/schedule_js.js"></script>
+<meta charset="UTF-8">
+<title>일정 - LCK.lol</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/schedule/schedule_style.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/schedule/schedule_js.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+    crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+    crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
 
 	<div id="wrap">
-		<div id="months">
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
+		
+		<div id="months" class="box">
 			<a id="month_menu1" href="#" onclick="monthClick(1)">1월</a>
 			<a id="month_menu2" href="#" onclick="monthClick(2)">2월</a>
 			<a id="month_menu3" href="#" onclick="monthClick(3)">3월</a>
@@ -33,7 +39,7 @@
 			<span id="month_menu11">11월</span>
 			<span id="month_menu12">12월</span>
 		</div>
-		<div id="calendar">
+		<div id="calendar" class="box">
 			<c:set var="prev_month" value="0"/>
 			<c:set var="check" value="0"/>
 			<c:set var="month" value="0"/>

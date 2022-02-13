@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 	<section id="season_table">
-		<table>
+		<table class="box">
 			<th class="title1_th" colspan="3"><img src="${pageContext.request.contextPath}/resources/img/logo/lcklogo.png"><div>LCK Spring</div></th>
 			<th class="title1_th" colspan="3"><img src="${pageContext.request.contextPath}/resources/img/logo/msilogo.png"><div>MSI / MSC</div></th>
 			<th class="title1_th" colspan="3"><img src="${pageContext.request.contextPath}/resources/img/logo/lcklogo.png"><div>LCK Summer</div></th>

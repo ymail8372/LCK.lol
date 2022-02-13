@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ymail</groupId>
-	<artifactId>LCkgg</artifactId>
+	<artifactId>LCklol</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LCkgg</name>
-	<description>LCKgg website</description>
+	<name>LCklol</name>
+	<description>LCK.lol website</description>
 	<packaging>war</packaging>
 	<properties>
 		<java.version>17</java.version>
@@ -35,7 +35,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -51,6 +51,11 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
 		</dependency>
 
 	</dependencies>

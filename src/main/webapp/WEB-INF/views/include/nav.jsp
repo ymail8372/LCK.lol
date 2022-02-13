@@ -3,7 +3,7 @@
 	<!-- nav -->
 	<nav>
 		<div id="title">
-			<h1><a href="/">LCK.gg</a></h1>
+			<h1><a href="/">LCK.lol</a></h1>
 		</div>
 		<div id="menu">
 			<a href="/schedule">일정</a>

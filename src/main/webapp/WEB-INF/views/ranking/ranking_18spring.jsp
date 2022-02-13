@@ -3,11 +3,13 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>순위 - LCK.gg</title>
+<title>역대 대회 - LCK.lol</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_18spring_style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/include/nav.jsp" flush="false"/>
@@ -15,6 +17,8 @@
 	<div id="wrap">
 		<jsp:include page="/WEB-INF/views/include/year_menu.jsp" flush="false"/>
 
+		<jsp:include page="/WEB-INF/views/include/ad1.jsp" flush="false"/>
+		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		<!-- 우승 -->
 		<section id="winner">
 			<h2>우승</h2>

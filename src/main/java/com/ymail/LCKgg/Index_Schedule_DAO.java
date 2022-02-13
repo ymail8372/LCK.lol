@@ -18,7 +18,7 @@ public class Index_Schedule_DAO {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://192.168.219.112:3306/board?serverTimezone=UTC", "root", "Hs1261101@");
+			con = DriverManager.getConnection("jdbc:mysql://192.168.219.200:3306/board?serverTimezone=UTC", "root", "Hs1261101@");
 			stm = con.createStatement();
 			rs = stm.executeQuery(GET_LIST);
 			while(rs.next()) {
