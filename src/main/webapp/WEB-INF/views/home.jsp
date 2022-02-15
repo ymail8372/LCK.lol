@@ -25,7 +25,7 @@
 		<!-- 일정 -->
 		<section id="schedule">
 			<table class="box">
-				<th colspan="5">2021 LCK spring 정규시즌 1라운드 4주차</th>
+				<th colspan="5"><c:out value="${schedule_title}"></c:out></th>
 				<tr>
 					<c:forEach items="${schedule_list}" var="u" varStatus="status">
 						<th>${u.date}</th>

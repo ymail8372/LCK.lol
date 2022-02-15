@@ -12,8 +12,9 @@ public class Index_Schedule_DAO {
 	private Statement stm;
 	private ResultSet rs;
 	private final String GET_LIST =  "SELECT * FROM index_schedule";
+	private final String GET_SCHEDULE_TITLE =  "SELECT * FROM index_schedule_title";
 	
-	public List<Index_Schedule_VO> getPlace() {
+	public List<Index_Schedule_VO> getSchedule() {
 		List<Index_Schedule_VO> list = new ArrayList<Index_Schedule_VO>();
 		
 		try {
@@ -37,5 +38,23 @@ public class Index_Schedule_DAO {
 		}
 		
 		return list;
+	}
+	
+	public String getSchedule_title() {
+		String schedule_title = "";
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://192.168.219.200:3306/board?serverTimezone=UTC", "root", "Hs1261101@");
+			stm = con.createStatement();
+			rs = stm.executeQuery(GET_SCHEDULE_TITLE);
+			rs.next();
+			schedule_title = rs.getString("schedule_title");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return schedule_title;
 	}
 }
