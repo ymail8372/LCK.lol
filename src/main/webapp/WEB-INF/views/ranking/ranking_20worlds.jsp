@@ -22,7 +22,7 @@
 		<!-- 우승 -->
 		<section id="winner">
 			<h2>우승</h2>
-			<table class="table1">
+			<table class="table1 box">
 				<tr class="title">
 					<th colspan="3">우승팀</th>
 				</tr>
@@ -41,7 +41,7 @@
 				</tr>
 			</table>
 			
-			<table class="table2">
+			<table class="table2 box">
 				<tr>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/top_white.png"></th>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/jg_white.png"></th>
@@ -65,7 +65,7 @@
 				</tr>  
 			</table>
 			
-			<table class="table3">
+			<table class="table3 box">
 				<tr>
 					<th>파이널 MVP</th>
 				</tr>
@@ -226,7 +226,7 @@
 		<!-- 그룹 스테이지 -->
 		<section id="groups">
 			<h2>그룹 스테이지</h2>
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">그룹 스테이지 A조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
@@ -261,7 +261,7 @@
 				</tr>
 			</table>
 
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">그룹 스테이지 B조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
@@ -296,7 +296,7 @@
 				</tr>
 			</table>
 
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">그룹 스테이지 C조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
@@ -331,7 +331,7 @@
 				</tr>
 			</table>
 
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">그룹 스테이지 D조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
@@ -376,7 +376,7 @@
 		<!-- 플레이인 스테이지 -->
 		<section id="playins">
 			<h2>플레이인 스테이지</h2>
-			<table>
+			<table class="box" class="box">
 				<th colspan="6" style="width: 50%;">플레이인 스테이지 A조</th>
 				<tr>
 					<th style="width: 5%;">순위</th><th colspan="2">팀</th><th>승</th><th>패</th><th>비고</th>
@@ -423,7 +423,7 @@
 				</tr>
 			</table>
 
-			<table>
+			<table class="box">
 				<th colspan="6" style="width: 50%;">플레이인 스테이지 B조</th>
 				<tr>
 					<th style="width: 5%;">순위</th><th colspan="2">팀</th><th>승</th><th>패</th><th>비고</th>

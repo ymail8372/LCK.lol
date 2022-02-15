@@ -15,8 +15,9 @@ public class ChampionController {
 	public String champion(Locale locale, Model model) {
 		ChampionDAO championDAO = new ChampionDAO();
 		List<ChampionVO> champion_list = championDAO.getPlace();
+		int total_game = championDAO.getTotalGame();
 		
-		model.addAttribute("total", 10);
+		model.addAttribute("total_game", total_game);
 		model.addAttribute("champion_list", champion_list);
 		
 		return "champion/champion";

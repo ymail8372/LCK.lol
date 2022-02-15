@@ -13,7 +13,8 @@ public class ChampionDAO {
 	private Connection con;
 	private Statement stm;
 	private ResultSet rs;
-	private final String GET_LIST =  "SELECT * FROM champion";
+	private final String GET_LIST =  "SELECT * FROM champion ORDER BY pick DESC";
+	private final String GET_TOTAL_GAME =  "SELECT * FROM total_game";
 
 	public List<ChampionVO> getPlace() {
 		List<ChampionVO> list = new ArrayList<ChampionVO>();
@@ -32,12 +33,32 @@ public class ChampionDAO {
 				data.setWin(rs.getInt("win"));
 				data.setLose(rs.getInt("lose"));
 				
-				list.add(data);
+				if (data.getPick() + data.getBan() != 0) {
+					list.add(data);
+				}
 			}
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 		
 		return list;
+	}
+	
+	public int getTotalGame() {
+		int total_game = 0;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://192.168.219.200:3306/board?serverTimezone=UTC", "root", "Hs1261101@");
+			stm = con.createStatement();
+			rs = stm.executeQuery(GET_TOTAL_GAME);
+			
+			rs.next();
+			total_game = rs.getInt("total_game");
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return total_game;
 	}
 }

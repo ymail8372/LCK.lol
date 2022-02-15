@@ -22,7 +22,7 @@
 		<!-- 우승 -->
 		<section id="winner">
 			<h2>우승</h2>
-			<table class="table1">
+			<table class="table1 box">
 				<tr class="title">
 					<th colspan="3">우승팀</th>
 				</tr>
@@ -36,7 +36,7 @@
 				</tr>
 			</table>
 			
-			<table class="table2">
+			<table class="table2 box">
 				<tr>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/top_white.png"></th>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/jg_white.png"></th>
@@ -60,7 +60,7 @@
 				</tr>  
 			</table>
 			
-			<table class="table3">
+			<table class="table3 box">
 				<tr>
 					<th>파이널 MVP</th>
 				</tr>
@@ -136,7 +136,7 @@
 		<!-- 그룹 스테이지 -->
 		<section id="groups">
 			<h2>그룹 스테이지</h2>
-			<table>
+			<table class="box">
 				<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
 				<tr>
 					<td style="background: #AADDFF;">1</td>
@@ -190,7 +190,7 @@
 		<!-- 플레이인 스테이지 -->
 		<section id="playins">
 			<h2>플레이인 스테이지</h2>
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">플레이인 스테이지 A조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
@@ -224,7 +224,7 @@
 					<td>4</td>
 				</tr>
 			</table>
-			<table>
+			<table class="box">
 				<th colspan="5" style="width: 50%; padding: 3px;">플레이인 스테이지 B조</th>
 				<tr>
 					<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>

@@ -54,7 +54,7 @@
 #regular_season #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 포스트시즌 */
-#post_season {margin: 30px 0 0 0; overflow: hidden;}
+#post_season {margin: 30px 0 0 0;}
 #post_season h2 {font-size: 30px; margin-bottom: 10px;}
 #post_season .space {float: left; width: 4%; height: 186px; text-align: center; line-height: 186px;}
 #post_season table {float: left; width: 22%; text-align: center;}
@@ -67,7 +67,7 @@
 #post_season table tr .score {font-size: 20px;}
 
 /* MVP 순위 */
-#MVP_ranking {margin: 30px 0 30px 0;}
+#MVP_ranking {margin: 230px 0 30px 0; clear: both;}
 #MVP_ranking h2 {font-size: 30px; margin-bottom: 10px;}
 #MVP_ranking table {width: 100%; margin: 0 auto; background: #fff;}
 #MVP_ranking table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}

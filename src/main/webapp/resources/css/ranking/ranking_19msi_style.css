@@ -75,7 +75,7 @@
 #groups #groups_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 플레이인 스테이지 */
-#playins {margin: 30px 0 0 0; overflow: hidden;}
+#playins {margin: 30px 0 0 0;}
 #playins h2 {font-size: 30px; margin-bottom: 10px;}
 #playins table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
 #playins table:nth-child(2) {margin-right: 5%;}

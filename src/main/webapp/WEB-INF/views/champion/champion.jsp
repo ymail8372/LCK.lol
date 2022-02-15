@@ -32,20 +32,20 @@
 						<td>${u.pick}</td>
 						<td>${u.ban}</td>
 						<td>
-							<c:set var="total" value="${total}"></c:set>
+							<c:set var="total_game" value="${total_game}"></c:set>
 							<c:set var="pick" value="${u.pick}"></c:set>
 							<c:set var="ban" value="${u.ban}"></c:set>
 							<%
-								String total = String.valueOf(pageContext.getAttribute("total"));
+								String total_game = String.valueOf(pageContext.getAttribute("total_game"));
 								String pick = String.valueOf(pageContext.getAttribute("pick"));
 								String ban = String.valueOf(pageContext.getAttribute("ban"));
 								double rate_pick1 = 0;
 								
-								if (Integer.parseInt(total) == 0) {
+								if (Integer.parseInt(total_game) == 0) {
 									rate_pick1 = 0;
 								}
 								else {
-									rate_pick1 = Integer.parseInt(pick) + Integer.parseInt(ban) / Double.parseDouble(total) * 100;
+									rate_pick1 = (Integer.parseInt(pick) + Integer.parseInt(ban)) / Double.parseDouble(total_game) * 100;
 								}
 								String rate_pick = String.format("%.1f", rate_pick1);
 								

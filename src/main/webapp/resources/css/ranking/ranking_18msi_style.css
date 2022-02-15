@@ -75,7 +75,7 @@
 #groups #groups_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 플레이인 스테이지 1R */
-#playins {margin: 30px 0 0 0; overflow: hidden;}
+#playins {margin: 30px 0 0 0;}
 #playins h2 {font-size: 30px; margin-bottom: 10px;}
 #playins table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
 #playins table:nth-child(2) {margin-right: 5%;}
@@ -90,9 +90,9 @@
 #playins #playins_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 플레이인 스테이지 2R */
-#playins_2R {overflow: hidden; margin: 30px 0 30px 0;}
+#playins_2R {margin: 30px 0 30px 0;}
 #playins_2R h2 {font-size: 30px; margin-bottom: 10px;}
-#playins_2R .blanc {width: 5%; height: 100%; float: left;}
+#playins_2R .blanc {width: 5%; float: left;}
 #playins_2R table {float: left; width: 47.5%; margin: 0 auto; background: #F7F7F7; border: 0; margin-bottom: 10px;}
 #playins_2R table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
 #playins_2R table tr {border: 0;}

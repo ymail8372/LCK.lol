@@ -22,7 +22,7 @@
 		<!-- 우승 -->
 		<section id="winner">
 			<h2>우승</h2>
-			<table class="table1">
+			<table class="table1 box">
 				<tr class="title">
 					<th colspan="3">우승팀</th>
 				</tr>
@@ -43,7 +43,7 @@
 				</tr>
 			</table>
 			
-			<table class="table2">
+			<table class="table2 box">
 				<tr>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/top_white.png"></th>
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/jg_white.png"></th>
@@ -67,7 +67,7 @@
 				</tr>
 			</table>
 			
-			<table class="table3">
+			<table class="table3 box">
 				<tr>
 					<th>정규시즌 MVP</th>
 					<th>파이널 MVP</th>
@@ -82,7 +82,7 @@
 		<!-- 정규시즌 -->
 		<section id="regular_season">
 			<h2>정규시즌</h2>
-			<table>
+			<table class="box">
 				<th>순위</th><th colspan="2" class="team">팀</th><th class="score">승</th><th class="score">패</th><th>세트 득실</th><th>득실차</th><th>기타</th>
 				<th>순위</th><th colspan="2" class="team">팀</th><th class="score">승</th><th class="score">패</th><th>세트 득실</th><th>득실차</th><th>기타</th>
 				<tr>
@@ -190,7 +190,7 @@
 		<section id="post_season">
 			<h2>포스트시즌</h2>
 			<div>
-				<table style="margin-bottom: 50px;">
+				<table class="box" style="margin-bottom: 50px;">
 					<th colspan="4">PO 1라운드 1경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
@@ -206,7 +206,7 @@
 					</tr>
 				</table>
 			
-				<table>
+				<table class="box">
 					<th colspan="4">PO 1라운드 2경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
@@ -233,7 +233,7 @@
 				</div>
 			</div>
 			<div>
-				<table style="margin-bottom: 50px;">
+				<table class="box" style="margin-bottom: 50px;">
 					<th colspan="4">PO 2라운드 1경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
@@ -249,7 +249,7 @@
 					</tr>
 				</table>
 				
-				<table>
+				<table class="box">
 					<th colspan="4">PO 2라운드 2경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
@@ -275,7 +275,7 @@
 				</div>
 			</div>
 			<div>
-				<table style="margin-top: 100px;">
+				<table class="box" style="margin-top: 100px;">
 					<th colspan="4">파이널<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
@@ -296,7 +296,7 @@
 		<!-- MVP 포인트 -->
 		<section id="MVP_ranking">
 			<h2>MVP 포인트</h2>
-			<table>
+			<table class="box">
 				<th>순위</th><th colspan="2" class="team">팀</th><th colspan="2" class="player">선수</th><th>포인트</th><th>포지션</th>
 				<th>순위</th><th colspan="2" class="team">팀</th><th colspan="2" class="player">선수</th><th>포인트</th><th>포지션</th>
 				<tr>

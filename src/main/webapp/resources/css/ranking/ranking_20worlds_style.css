@@ -62,7 +62,7 @@
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 30px 0; overflow: hidden;}
+#groups {margin: 30px 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
 #groups table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
 #groups table:nth-child(2) {margin-right: 5%; margin-bottom: 3%;}
