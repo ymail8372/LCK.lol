@@ -138,14 +138,14 @@
 					<th>blue</th><th></th><th>red</th>
 				</tr>
 				<c:forEach items="${camp_list}" var="u" varStatus="status">
-					<c:set var="total" value="${u.total}"/>
+					<c:set var="total_game" value="${total_game}"/>
 					<c:set var="blue_pick" value="${u.blue_pick}"/>
 					<c:set var="blue_win" value="${u.blue_win}"/>
 					<c:set var="red_pick" value="${u.red_pick}"/>
 					<c:set var="red_win" value="${u.red_win}"/>
 					<tr>
 						<%
-							String total = String.valueOf(pageContext.getAttribute("total"));
+							String total_game = String.valueOf(pageContext.getAttribute("total_game"));
 							String blue_pick = String.valueOf(pageContext.getAttribute("blue_pick"));
 							String red_pick = String.valueOf(pageContext.getAttribute("red_pick"));
 							String blue_win = String.valueOf(pageContext.getAttribute("blue_win"));
@@ -155,24 +155,24 @@
 							double rate_win_red1 = 0;
 							double rate_win_blue1 = 0;
 							
-							if (Integer.parseInt(total) == 0) {
+							if (Integer.parseInt(total_game) == 0) {
 								rate_pick_red1 = 0;
 								rate_pick_blue1 = 0;
 							}
 							else {
-								rate_pick_red1 = Integer.parseInt(red_pick) / Double.parseDouble(total) * 100;
-								rate_pick_blue1 = Integer.parseInt(blue_pick) / Double.parseDouble(total) * 100;
+								rate_pick_red1 = Integer.parseInt(red_pick) / Double.parseDouble(total_game) * 100;
+								rate_pick_blue1 = Integer.parseInt(blue_pick) / Double.parseDouble(total_game) * 100;
 							}
 							String rate_pick_red = String.format("%.1f", rate_pick_red1);
 							String rate_pick_blue = String.format("%.1f", rate_pick_blue1);
 							
-							if (Integer.parseInt(total) == 0) {
+							if (Integer.parseInt(total_game) == 0) {
 								rate_win_red1 = 0;
 								rate_win_blue1 = 0;
 							}
 							else {
-								rate_win_red1 = Integer.parseInt(red_win) / Double.parseDouble(total) * 100;
-								rate_win_blue1 = Integer.parseInt(blue_win) / Double.parseDouble(total) * 100;
+								rate_win_red1 = Integer.parseInt(red_win) / Double.parseDouble(total_game) * 100;
+								rate_win_blue1 = Integer.parseInt(blue_win) / Double.parseDouble(total_game) * 100;
 							}
 							String rate_win_red = String.format("%.1f", rate_win_red1);
 							String rate_win_blue = String.format("%.1f", rate_win_blue1);
@@ -182,14 +182,14 @@
 							pageContext.setAttribute("rate_win_red", rate_win_red);
 							pageContext.setAttribute("rate_win_blue", rate_win_blue);
 						%>
-						<td><c:out value="${rate_pick_blue}%"></c:out><br>(<c:out value="${blue_pick}"></c:out>/<c:out value="${total}"></c:out>)</td>
+						<td><c:out value="${rate_pick_blue}%"></c:out><br>(<c:out value="${blue_pick}"></c:out>/<c:out value="${total_game}"></c:out>)</td>
 						<td>픽률</td>
-						<td><c:out value="${rate_pick_red}%"></c:out><br>(<c:out value="${red_pick}"></c:out>/<c:out value="${total}"></c:out>)</td>
+						<td><c:out value="${rate_pick_red}%"></c:out><br>(<c:out value="${red_pick}"></c:out>/<c:out value="${total_game}"></c:out>)</td>
 					</tr>
 					<tr>
-						<td><c:out value="${rate_win_blue}%"></c:out><br>(<c:out value="${blue_win}"></c:out>/<c:out value="${total}"></c:out>)</td>
+						<td><c:out value="${rate_win_blue}%"></c:out><br>(<c:out value="${blue_win}"></c:out>/<c:out value="${total_game}"></c:out>)</td>
 						<td>승률</td>
-						<td><c:out value="${rate_win_red}%"></c:out><br>(<c:out value="${red_win}"></c:out>/<c:out value="${total}"></c:out>)</td>
+						<td><c:out value="${rate_win_red}%"></c:out><br>(<c:out value="${red_win}"></c:out>/<c:out value="${total_game}"></c:out>)</td>
 					</tr>
 				</c:forEach>
 			</table>

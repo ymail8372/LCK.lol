@@ -8,6 +8,7 @@
 #schedule h2 {font-size: 30px; margin-bottom: 10px;}
 #schedule table {width: 100%;}
 #schedule table tr th {width: 20%;}
+#schedule table tr .today {background: #6454ed;}
 #schedule table tr td {overflow: hidden; border-right: 1px solid #aaa;}
 #schedule table tr td:last-child {border: 0;}
 #schedule table tr td .match {overflow: hidden;}

@@ -27,9 +27,7 @@ public class ScheduleDAO {
 				ScheduleVO data = new ScheduleVO();
 				data.setDate(rs.getString("date"));
 				data.setTime(rs.getString("time"));
-				data.setTeam1_Korea(rs.getString("team1_Korea"));
 				data.setTeam1_English(rs.getString("team1_English"));
-				data.setTeam2_Korea(rs.getString("team2_Korea"));
 				data.setTeam2_English(rs.getString("team2_English"));
 				data.setTeam1_score(rs.getInt("team1_score"));
 				data.setTeam2_score(rs.getInt("team2_score"));

@@ -43,6 +43,16 @@
 			<c:set var="prev_month" value="0"/>
 			<c:set var="check" value="0"/>
 			<c:set var="month" value="0"/>
+			<%
+				LocalDate now = LocalDate.now();
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd");
+				String today = now.format(formatter);
+				if (today.charAt(0) == '0') {
+					StringBuilder today_StringBuilder = new StringBuilder(today);
+					today_StringBuilder = today_StringBuilder.deleteCharAt(0);
+					today = today_StringBuilder.toString();
+				}
+			%>
 			<c:forEach items="${spring_regular}" var="u" varStatus="status">
 				<c:set var="date" value="${u.date}"/>
 				<%
@@ -80,15 +90,6 @@
 					<%
 						String date_out = "";
 						
-						LocalDate now = LocalDate.now();
-						DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd");
-						String today = now.format(formatter);
-						if (today.charAt(0) == '0') {
-							StringBuilder today_StringBuilder = new StringBuilder(today);
-							today_StringBuilder = today_StringBuilder.deleteCharAt(0);
-							today = today_StringBuilder.toString();
-						}
-
 						if (date.contains(today)) {
 							date_out = "<td class=\"date today\" rowspan=\"2\">" + date + "</td>";
 						}

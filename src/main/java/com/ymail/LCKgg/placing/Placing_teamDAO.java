@@ -11,7 +11,7 @@ public class Placing_teamDAO {
 	private Connection con;
 	private Statement stm;
 	private ResultSet rs;
-	private final String GET_LIST =  "SELECT * FROM placing";
+	private final String GET_LIST =  "SELECT * FROM placing ORDER BY win DESC, win-lose DESC, set_win - set_lose DESC";
 	
 	public List<Placing_teamVO> getPlace() {
 		List<Placing_teamVO> list = new ArrayList<Placing_teamVO>();
@@ -23,9 +23,8 @@ public class Placing_teamDAO {
 			rs = stm.executeQuery(GET_LIST);
 			while(rs.next()) {
 				Placing_teamVO data = new Placing_teamVO();
-				data.setPlace(rs.getInt("place"));
+				data.setPlace(0);
 				data.setTeam(rs.getString("team"));
-				data.setTeam_korea(rs.getString("team_korea"));
 				data.setWin(rs.getInt("win"));
 				data.setLose(rs.getInt("lose"));
 				data.setSet_win(rs.getInt("set_win"));

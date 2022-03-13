@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.time.LocalDate" %>
+<%@ page import="java.time.format.DateTimeFormatter" %>
+<%@ page import="java.lang.StringBuilder" %>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -20,15 +23,39 @@
 		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		
 		<!-- 버전 -->
-		<div id="version">일반 버전 - 12.4 , &nbsp; 대회 버전 - 12.3</div>
+		<div id="version">일반 버전 - 12.5 , &nbsp; 대회 버전 - 12.4</div>
 	
 		<!-- 일정 -->
 		<section id="schedule">
 			<table class="box">
 				<th colspan="5"><c:out value="${schedule_title}"></c:out></th>
 				<tr>
+					<%
+						LocalDate now = LocalDate.now();
+						DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM월 dd일");
+						String today = now.format(formatter);
+						if (today.charAt(0) == '0') {
+							StringBuilder today_StringBuilder = new StringBuilder(today);
+							today_StringBuilder = today_StringBuilder.deleteCharAt(0);
+							today = today_StringBuilder.toString();
+						}
+					%>
 					<c:forEach items="${schedule_list}" var="u" varStatus="status">
-						<th>${u.date}</th>
+						<c:set var="date" value="${u.date}"/>
+						<%
+							String date_out = "";
+							String date = String.valueOf(pageContext.getAttribute("date"));
+
+							if (date.contains(today)) {
+								date_out = "<th class=\"today\">" + date + "</th>";
+							}
+							else if (!date.equals("-")) {
+								date_out = "<th>" + date + "</th>";
+							}
+							
+							pageContext.setAttribute("date_out", date_out);
+						%>
+					<c:out value="${date_out}" escapeXml="false"></c:out>
 					</c:forEach>
 				</tr>
 				<tr>

@@ -14,7 +14,7 @@ public class ChampionDAO {
 	private Statement stm;
 	private ResultSet rs;
 	private final String GET_LIST =  "SELECT * FROM champion ORDER BY pick DESC";
-	private final String GET_TOTAL_GAME =  "SELECT * FROM total_game";
+	private final String GET_TOTAL_GAME =  "SELECT pick FROM champion";
 
 	public List<ChampionVO> getPlace() {
 		List<ChampionVO> list = new ArrayList<ChampionVO>();
@@ -53,12 +53,13 @@ public class ChampionDAO {
 			stm = con.createStatement();
 			rs = stm.executeQuery(GET_TOTAL_GAME);
 			
-			rs.next();
-			total_game = rs.getInt("total_game");
+			while(rs.next()) {
+				total_game += rs.getInt("pick");
+			}
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 		
-		return total_game;
+		return total_game/10;
 	}
 }
