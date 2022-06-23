@@ -23,7 +23,7 @@
 		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		
 		<!-- 버전 -->
-		<div id="version">일반 버전 - 12.5 , &nbsp; 대회 버전 - 12.4</div>
+		<div id="version">일반 버전 - 12.12 , &nbsp; 대회 버전 - 12.11</div>
 	
 		<!-- 일정 -->
 		<section id="schedule">
@@ -55,7 +55,7 @@
 							
 							pageContext.setAttribute("date_out", date_out);
 						%>
-					<c:out value="${date_out}" escapeXml="false"></c:out>
+						<c:out value="${date_out}" escapeXml="false"></c:out>
 					</c:forEach>
 				</tr>
 				<tr>
