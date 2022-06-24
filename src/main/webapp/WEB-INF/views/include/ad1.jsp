@@ -4,7 +4,7 @@
      crossorigin="anonymous"></script>
 <!-- 사이드1 -->
 <ins class="adsbygoogle"
-     style="display:block; left: -350px; top: 150px;"
+     style="left: -350px; top: 150px;"
      data-ad-client="ca-pub-9052803485032468"
      data-ad-slot="6426318720"
      data-ad-format="auto"
