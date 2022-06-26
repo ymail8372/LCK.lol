@@ -13,7 +13,8 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/schedule/schedule_style.css" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/schedule/schedule_js.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
+<script src="${pageContext.request.contextPath}/resources/js/schedule/schedule_js.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
     crossorigin="anonymous"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
     crossorigin="anonymous"></script>
@@ -26,21 +27,22 @@
 		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		
 		<div id="months" class="box">
-			<a id="month_menu1" href="#" onclick="monthClick(1)">1월</a>
-			<a id="month_menu2" href="#" onclick="monthClick(2)">2월</a>
-			<a id="month_menu3" href="#" onclick="monthClick(3)">3월</a>
+			<span id="month_menu1">1월</span>
+			<span id="month_menu2">2월</span>
+			<span id="month_menu3">3월</span>
 			<span id="month_menu4">4월</span>
 			<span id="month_menu5">5월</span>
-			<span id="month_menu6">6월</span>
-			<span id="month_menu7">7월</span>
-			<span id="month_menu8">8월</span>
+			<a id="month_menu6" href="#" onclick="monthClick(6)">6월</a>
+			<a id="month_menu7" href="#" onclick="monthClick(7)">7월</a>
+			<a id="month_menu8" href="#" onclick="monthClick(8)">8월</a>
 			<span id="month_menu9">9월</span>
 			<span id="month_menu10">10월</span>
 			<span id="month_menu11">11월</span>
 			<span id="month_menu12">12월</span>
 		</div>
 		<div id="calendar" class="box">
-			<c:set var="prev_month" value="0"/>
+			<!-- month update -->
+			<c:set var="prev_month" value="5"/>
 			<c:set var="check" value="0"/>
 			<c:set var="month" value="0"/>
 			<%
@@ -53,7 +55,7 @@
 					today = today_StringBuilder.toString();
 				}
 			%>
-			<c:forEach items="${spring_regular}" var="u" varStatus="status">
+			<c:forEach items="${summer_regular}" var="u" varStatus="status">
 				<c:set var="date" value="${u.date}"/>
 				<%
 					String date = String.valueOf(pageContext.getAttribute("date"));
@@ -80,7 +82,8 @@
 					pageContext.setAttribute("post_out", post_out);
 				%>
 				<c:if test="${check == '1'}">
-					<c:if test="${month ne '1'}">
+					<!-- month update -->
+					<c:if test="${month ne '6'}">
 						<c:out value="${post_out}" escapeXml="false"></c:out>
 					</c:if>
 					<c:out value="${prev_out}" escapeXml="false"></c:out>

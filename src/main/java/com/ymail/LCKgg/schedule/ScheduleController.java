@@ -18,10 +18,10 @@ public class ScheduleController {
 	public String placing(Locale locale, Model model) {
 		ScheduleDAO scheduleDAO = new ScheduleDAO();
 		
-		List<ScheduleVO> spring_regular = scheduleDAO.getSchedule_spring();
-		spring_regular = this.setTeam_Korea_team(spring_regular);
+		List<ScheduleVO> summer_regular = scheduleDAO.getSchedule_summer();
+		summer_regular = this.setTeam_Korea_team(summer_regular);
 		
-		model.addAttribute("spring_regular", spring_regular);
+		model.addAttribute("summer_regular", summer_regular);
 
 		return "schedule/schedule";
 	}
