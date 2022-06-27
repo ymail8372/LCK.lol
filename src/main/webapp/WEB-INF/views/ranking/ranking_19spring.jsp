@@ -275,7 +275,7 @@
 					<td>Tarzan</td>
 					<td>이승용</td>
 					<td>800</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -284,7 +284,7 @@
 					<td>Deft</td>
 					<td>김혁규</td>
 					<td>1200</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 					
 					
 					<td>7</td>
@@ -302,7 +302,7 @@
 					<td>Clid</td>
 					<td>김태민</td>
 					<td>1000</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 					
 					<td>8</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2019spring/KZ.png"></td>
@@ -310,7 +310,7 @@
 					<td>Cuzz</td>
 					<td>문우찬</td>
 					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 				</tr>
 				<tr>
 					<td>4</td>
@@ -319,7 +319,7 @@
 					<td>Ruler</td>
 					<td>박재혁</td>
 					<td>900</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 					
 					<td>9</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2019spring/SB.png"></td>
@@ -327,7 +327,7 @@
 					<td>OnFleek</td>
 					<td>김장겸</td>
 					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 				</tr>
 				<tr>
 					<td>5</td>
@@ -336,7 +336,7 @@
 					<td>Summit</td>
 					<td>박우태</td>
 					<td>900</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
 					
 					<td>10</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2019spring/SB.png"></td>
@@ -344,7 +344,7 @@
 					<td>Ghost</td>
 					<td>장용준</td>
 					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 				</tr>
 			</table>
 			<div id="reference">

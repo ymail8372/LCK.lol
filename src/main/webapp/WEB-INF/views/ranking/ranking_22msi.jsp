@@ -7,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_21msi_style.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_22msi_style.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
      crossorigin="anonymous"></script>
 </head>
@@ -27,11 +27,16 @@
 					<th colspan="3">우승팀</th>
 				</tr>
 				<tr>
-					<td colspan="3" class="img"><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/RNG.png"><div class="team_name">Royal Never Give Up</div><span class="star">★★</span></td>
+					<td colspan="3" class="img"><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RNG.png"><div class="team_name">Royal Never Give Up</div><span class="star">★★★</span></td>
 				</tr>
 				<tr>
 					<th>감독</th>
-					<td>&nbsp;&nbsp;&nbsp;짱푸하 Poppy <img class="country" src="${pageContext.request.contextPath}/resources/img/country/Taiwan.svg"></td>
+					<td>&nbsp;&nbsp;&nbsp;줘카이 KenZhu <img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
+					<td class="blank"></td>
+				</tr>
+				<tr>
+					<th>코치</th>
+					<td>&nbsp;&nbsp;&nbsp;웡박칸 Tabe <img class="country" src="${pageContext.request.contextPath}/resources/img/country/Taiwan.svg"></td>
 					<td class="blank"></td>
 				</tr>
 			</table>
@@ -45,18 +50,18 @@
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/sup_white.png"></th>
 				</tr>
 				<tr>
-					<td><a href="#">Xiaohu 리위안하오<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
+					<td><a href="#">Bin 천쩌빈<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 					<td><a href="#">Wei 옌양웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
-					<td><a href="#">Cryin 위안청웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
+					<td><a href="#">Xiaohu 리위안하오<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 					<td><a href="#">GALA 천웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 					<td><a href="#">Ming 스썬밍<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 				</tr>
 				<tr>
-					<td>Xiaobai 양종허<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
 					<td></td>
 					<td></td>
 					<td></td>
-					<td>Lele 당보린<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
+					<td></td>
+					<td>Bunny 리우웬꽝<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
 				</tr>  
 			</table>
 			
@@ -65,7 +70,7 @@
 					<th>파이널 MVP</th>
 				</tr>
 				<tr>
-					<td>GALA 천웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
+					<td>Wei 옌양웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
 				</tr>
 			</table>
 		</section>
@@ -76,14 +81,14 @@
 			<table id="semifinal">
 				<th colspan="3">4강</th>
 				<tr class="win">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/DK.png"></td>
-					<td class="middle"><span class="tm_team">DWG KIA</span></td>
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RNG.png"></td>
+					<td class="middle"><span class="tm_team">Royal Never Give Up</span></td>
 					<td class="right"><span class="tm_score">3</span></td>
 				</tr>
 				<tr class="lose">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/MAD.png"></td>
-					<td class="middle"><span class="tm_team">MAD Lions</span></td>
-					<td class="right"><span class="tm_score">2</span></td>
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/EG.png"></td>
+					<td class="middle"><span class="tm_team">Evil Geniuses</span></td>
+					<td class="right"><span class="tm_score">0</span></td>
 				</tr>
 				<tr class="blanc" style="height: 100px;">
 					<td></td>
@@ -91,14 +96,14 @@
 					<td></td>
 				</tr>
 				<tr class="win">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/RNG.png"></td>
-					<td class="middle"><span class="tm_team">Royal Never Give Up</span></td>
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/T1.png"></td>
+					<td class="middle"><span class="tm_team">T1</span></td>
 					<td class="right"><span class="tm_score">3</span></td>
 				</tr>
 				<tr class="lose">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PSG.png"></td>
-					<td class="middle"><span class="tm_team">PSG Talon</span></td>
-					<td class="right"><span class="tm_score">1</span></td>
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/G2.png"></td>
+					<td class="middle"><span class="tm_team">G2 Esports</span></td>
+					<td class="right"><span class="tm_score">0</span></td>
 				</tr>
 			</table>
 			
@@ -120,15 +125,15 @@
 					<td></td>
 					<td></td>
 				</tr>
-				<tr class="lose">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/DK.png"></td>
-					<td class="middle"><span class="tm_team">DWG KIA</span></td>
-					<td class="right"><span class="tm_score">2</span></td>
-				</tr>
 				<tr class="win">
-					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/RNG.png"></td>
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RNG.png"></td>
 					<td class="middle"><span class="tm_team">Royal Never Give Up</span></td>
 					<td class="right"><span class="tm_score">3</span></td>
+				</tr>
+				<tr class="lose">
+					<td class="left"><div class="tm_result"></div><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/T1.png"></td>
+					<td class="middle"><span class="tm_team">T1</span></td>
+					<td class="right"><span class="tm_score">2</span></td>
 				</tr>
 			</table>
 		</section>
@@ -140,43 +145,43 @@
 				<th>순위</th><th colspan="2">팀</th><th>승</th><th>패</th>
 				<tr>
 					<td style="background: #AADDFF;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/DK.png"></td>
-					<td>DWG KIA</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RNG.png"></td>
+					<td>Royal Never Give Up</td>
 					<td>8</td>
 					<td>2</td>
 				</tr>
 				<tr>
 					<td style="background: #AADDFF;">2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/RNG.png"></td>
-					<td>Royal Never Give Up</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/T1.png"></td>
+					<td>T1</td>
 					<td>7</td>
 					<td>3</td>
 				</tr>
 				<tr>
 					<td style="background: #AADDFF;">3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PSG.png"></td>
-					<td>⁠PSG Talon</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/G2.png"></td>
+					<td>G2 Esports</td>
 					<td>6</td>
 					<td>4</td>
 				</tr>
 				<tr>
 					<td style="background: #AADDFF;">4</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/MAD.png"></td>
-					<td>⁠MAD Lions</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/EG.png"></td>
+					<td>⁠Evil Geniuses</td>
 					<td>5</td>
 					<td>5</td>
 				</tr>
 				<tr>
 					<td style="background: #FFFF99;">5</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/C9.png"></td>
-					<td>⁠Cloud9</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/PSG.png"></td>
+					<td>⁠PSG Talon</td>
 					<td>3</td>
 					<td>7</td>
 				</tr>
 				<tr>
 					<td style="background: #FFFF99;">6</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PGG.png"></td>
-					<td>Pentanet.GG</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/SGB.png"></td>
+					<td>Saigon Buffalo</td>
 					<td>1</td>
 					<td>9</td>
 				</tr>
@@ -197,24 +202,31 @@
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/RNG.png"></td>
-					<td>Royal Never Give Up</td>
-					<td>5</td>
-					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/T1.png"></td>
+					<td>T1</td>
+					<td>6</td>
+					<td>0</td>
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PGG.png"></td>
-					<td>⁠Pentanet.GG</td>
-					<td>5</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/SGB.png"></td>
+					<td>⁠Saigon Buffalo</td>
+					<td>4</td>
 					<td>2</td>
 				</tr>
 				<tr>
 					<td style="background-color: #FFFF99">3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/UOL.png"></td>
-					<td>Unicorns Of Love</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/DFM.png"></td>
+					<td>DetonatioN FocusMe</td>
+					<td>1</td>
 					<td>5</td>
-					<td>2</td>
+				</tr>
+				<tr>
+					<td style="background-color: #FFFF99">3</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/AZE.png"></td>
+					<td>Team Aze</td>
+					<td>1</td>
+					<td>5</td>
 				</tr>
 			</table>
 			<table class="box">
@@ -224,31 +236,31 @@
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/MAD.png"></td>
-					<td>MAD Lions</td>
-					<td>5</td>
-					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RNG.png"></td>
+					<td>Royal Never Give Up</td>
+					<td>6</td>
+					<td>0</td>
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PSG.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/PSG.png"></td>
 					<td>PSG Talon</td>
-					<td>5</td>
-					<td>2</td>
+					<td>3</td>
+					<td>3</td>
 				</tr>
 				<tr>
 					<td style="background-color: #FFFF99">3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/PAN.png"></td>
-					<td>paiN Gaming</td>
-					<td>5</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/RED.png"></td>
+					<td>RED Kalunga</td>
 					<td>2</td>
+					<td>4</td>
 				</tr>
 				<tr>
 					<td style="background-color: #FFFF99">4</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/WC.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/IW.png"></td>
 					<td>istanbul Wildcats</td>
+					<td>1</td>
 					<td>5</td>
-					<td>2</td>
 				</tr>
 			</table>
 			<table class="box">
@@ -258,31 +270,24 @@
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/DK.png"></td>
-					<td>DWG KIA</td>
-					<td>5</td>
-					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/G2.png"></td>
+					<td>G2 Esports</td>
+					<td>8</td>
+					<td>0</td>
 				</tr>
 				<tr>
 					<td style="background-color: #AADDFF;">2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/C9.png"></td>
-					<td>⁠Cloud9</td>
-					<td>5</td>
-					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/EG.png"></td>
+					<td>⁠Evil Geniuses</td>
+					<td>4</td>
+					<td>4</td>
 				</tr>
 				<tr>
 					<td style="background-color: #FFFF99">3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/DFM.png"></td>
-					<td>DetonatioN FocusMe</td>
-					<td>5</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td style="background-color: #FFFF99">4</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021msi/INF.png"></td>
-					<td>Infinity Esports</td>
-					<td>5</td>
-					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022msi/ORD.png"></td>
+					<td>ORDER</td>
+					<td>0</td>
+					<td>8</td>
 				</tr>
 			</table>
 				

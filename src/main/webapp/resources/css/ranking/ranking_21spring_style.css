@@ -37,7 +37,9 @@
 #winner .table2 tr td {width: 20%;}
 
 #winner .table3 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
-#winner .table3 tr th {width: 50%;}
+#winner .table3 tr th:nth-child(1) {width: 40%;}
+#winner .table3 tr th:nth-child(2) {width: 30%;}
+#winner .table3 tr th:nth-child(3) {width: 30%;}
 
 /* 정규시즌 */
 #regular_season {margin: 30px 0 0 0;}

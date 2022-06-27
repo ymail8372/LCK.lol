@@ -69,10 +69,12 @@
 			
 			<table class="table3 box">
 				<tr>
+					<th>Player of the Split</th>
 					<th>정규시즌 MVP</th>
 					<th>파이널 MVP</th>
 				</tr>
 				<tr>
+					<td><a href="">Gori 김태우</a></td>
 					<td><a href="">Peanut 한왕호</a></td>
 					<td><a href="">ShowMaker 허수</a></td>
 				</tr>

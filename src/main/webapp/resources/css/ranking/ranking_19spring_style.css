@@ -29,7 +29,7 @@
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
 #winner .table1 tr .img .img_container {margin: 0 auto; width: 200px; border-radius: 10px;}
-#winner .table1 tr .img .img_container a img {height: 90px;}
+#winner .table1 tr .img .img_container img {height: 90px;}
 #winner .table1 tr .blank {width: auto;}
 
 #winner .table2 {overflow: hidden; border-radius: 0;}

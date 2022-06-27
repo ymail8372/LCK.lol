@@ -45,19 +45,28 @@
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/sup_white.png"></th>
 				</tr>
 				<tr>
-					<td><a href="#">GimGoon 김한샘 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/korea.svg"></a></td>
+					<td><a href="#">GimGoon 김한샘 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/Korea.svg"></a></td>
 					<td><a href="#">Tian 가오톈량 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
-					<td><a href="#">Doinb 김태상 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/korea.svg"></a></td>
+					<td><a href="#">Doinb 김태상 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/Korea.svg"></a></td>
 					<td><a href="#">Lwx 린웨이샹 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 					<td><a href="#">Crisp 류칭쑹 <img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></a></td>
 				</tr>
 				<tr>
-					<td>Xiaobai 양종허<img class="country" src="${pageContext.request.contextPath}/resources/img/country/china.svg"></td>
+					<td>Xiaobai 양종허<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
 					<td></td>
 					<td></td>
 					<td></td>
 					<td>Lele 당보린<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
 				</tr>  
+			</table>
+			
+			<table class="table3 box">
+				<tr>
+					<th>파이널 MVP</th>
+				</tr>
+				<tr>
+					<td>GALA 천웨이<img class="country" src="${pageContext.request.contextPath}/resources/img/country/China.svg"></td>
+				</tr>
 			</table>
 		</section>
 		

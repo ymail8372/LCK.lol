@@ -19,7 +19,7 @@
 #placeTable_team table td:nth-child(2) {width: 80px; padding: 0px;}
 #placeTable_team table td:nth-child(3) {width: 160px;}
 
-#placeTable_team table td img {height: 58px;}
+#placeTable_team table td img {height: 45px; padding: 5px;}
 
 #placeTable_team #reference {margin-top: 10px; text-align: right; font-size: 14px;}
 #placeTable_team #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
@@ -39,8 +39,7 @@
 #placeTable_player table td:nth-child(6) {width: 175px;}
 #placeTable_player table td {padding: 5px;}
 
-#placeTable_player table td:nth-child(4) img {width: 36px;}
-#placeTable_player table td:nth-child(5) img {height: 58px;}
+#placeTable_player table td img {height: 45px; padding: 5px;}
 
 #placeTable_player #reference {margin-top: 10px; text-align: right; font-size: 14px;}
 #placeTable_player #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}

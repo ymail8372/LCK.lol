@@ -9,10 +9,10 @@
 			<tr class="table1_td">
 				<td><a href="/ranking?year=20spring">2020</a></td>
 				<td><a href="/ranking?year=21spring">2021</a></td>
-				<td><a href="/placing">2022</a></td>
+				<td><a href="/ranking?year=22spring">2022</a></td>
 				<td><a href="/ranking?year=20msi">2020</a></td>
 				<td><a href="/ranking?year=21msi">2021</a></td>
-				<td> - </td>
+				<td><a href="/ranking?year=22msi">2022</a></td>
 				<td><a href="/ranking?year=20summer">2020</a></td>
 				<td><a href="/ranking?year=21summer">2021</a></td>
 				<td> - </td>

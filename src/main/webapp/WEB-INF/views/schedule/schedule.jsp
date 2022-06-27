@@ -152,7 +152,10 @@
 					</td>
 				</tr>
 			</c:forEach>
+			</table></div>
 		</div>
 	</div>
+
 </body>
 </html>
+	<jsp:include page="/WEB-INF/views/include/footer.jsp" flush="false"/>

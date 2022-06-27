@@ -277,7 +277,7 @@
 					<td>HyBriD</td>
 					<td>이우진</td>
 					<td>900</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -294,7 +294,7 @@
 					<td>Clid</td>
 					<td>김태민</td>
 					<td>800</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 				</tr>
 				<tr> 
 					<td>3</td>
@@ -303,7 +303,7 @@
 					<td>Keria</td>
 					<td>류민석</td>
 					<td>1000</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/sup.png"></td>
 					
 					<td>7</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2020spring/T1.png"></td>
@@ -320,7 +320,7 @@
 					<td>Aiming</td>
 					<td>김하람</td>
 					<td>1000</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 					
 					<td>9</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2020spring/T1.png"></td>
@@ -328,7 +328,7 @@
 					<td>Teddy</td>
 					<td>박진성</td>
 					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
 				</tr>
 				<tr>
 					<td>5</td>
@@ -337,7 +337,7 @@
 					<td>Nuguri</td>
 					<td>장하권</td>
 					<td>900</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
 					
 					<td>10</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/team/2020spring/GEN.png"></td>
@@ -345,7 +345,7 @@
 					<td>Rascal</td>
 					<td>김광희</td>
 					<td>600</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
 				</tr>
 			</table>
 			<div id="reference">

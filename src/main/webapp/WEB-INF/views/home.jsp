@@ -64,24 +64,24 @@
 							<div class="match">
 								<div class="match_no">match 1</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.match1_team1}.png">
+									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match1_team1}.png">
 									<div>${u.match1_team1}</div>
 								</div>
 								<div class="vs">vs</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.match1_team2}.png">
+									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match1_team2}.png">
 									<div>${u.match1_team2}</div>
 								</div>
 							</div>
 							<div class="match">
 								<div class="match_no">match 2</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.match2_team1}.png">
+									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match2_team1}.png">
 									<div>${u.match2_team1}</div>
 								</div>
 								<div class="vs">vs</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.match2_team2}.png">
+									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match2_team2}.png">
 									<div>${u.match2_team2}</div>
 								</div>
 							</div>
@@ -120,7 +120,7 @@
 							pageContext.setAttribute("place", place_out);
 						%>
 						<c:out value="${place}" escapeXml="false"></c:out>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.team}.png"></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.team}.png"></td>
 						<td>${u.team_korea}</td>
 						<td>${u.win}</td>
 						<td>${u.lose}</td>

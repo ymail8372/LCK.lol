@@ -50,7 +50,7 @@
 							pageContext.setAttribute("place", place_out);
 						%>
 						<c:out value="${place}" escapeXml="false"></c:out>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.team}.png"></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.team}.png"></td>
 						<td>${u.team_korea}</td>
 						<td>${u.win}</td>
 						<td>${u.lose}</td>
@@ -119,7 +119,7 @@
 						<td>${u.nickName}</td>
 						<td>${u.realName}</td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/position/${u.position}.png"></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/${u.team}.png"></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.team}.png"></td>
 						<td>${u.team_korea}</td>
 						<td>${u.pog}</td>
 					</tr>
@@ -135,7 +135,7 @@
 		<h2>진영별 승률</h2>
 			<table class="box">
 				<tr>
-					<th>blue</th><th></th><th>red</th>
+					<th>Blue</th><th></th><th>Red</th>
 				</tr>
 				<c:forEach items="${camp_list}" var="u" varStatus="status">
 					<c:set var="total_game" value="${total_game}"/>

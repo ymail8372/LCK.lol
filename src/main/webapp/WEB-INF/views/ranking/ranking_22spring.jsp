@@ -4,10 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 <title>역대 대회 - LCK.lol</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_21spring_style.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/ranking/ranking_22spring_style.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9052803485032468"
      crossorigin="anonymous"></script>
 </head>
@@ -27,18 +27,18 @@
 					<th colspan="3">우승팀</th>
 				</tr>
 				<tr>
-					<td colspan="3" class="img"><div class="img_container"><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></div>
-					<span class="star">★★</span><div class="team_name">DWG KIA</div>
+					<td colspan="3" class="img"><div class="img_container"><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></div>
+					<span class="star">★★★★★★★★★★</span><div class="team_name">T1</div>
 					</td>
 				</tr>
 				<tr>
 					<th>감독</th>
-					<td>&nbsp;&nbsp;&nbsp;김정균 kkOma</td>
+					<td>&nbsp;&nbsp;&nbsp;최성훈 Polt</td>
 					<td class="blank"></td>
 				</tr>
 				<tr>
 					<th>코치</th>
-					<td>&nbsp;&nbsp;&nbsp;이정현 PoohManDu , 김민권 Ares</td>
+					<td>&nbsp;&nbsp;&nbsp;김지환 moment , 배성웅 Bengi</td>
 					<td class="blank"></td>
 				</tr>
 			</table>
@@ -52,18 +52,18 @@
 					<th><img src="${pageContext.request.contextPath}/resources/img/position/sup_white.png"></th>
 				</tr>
 				<tr>
-					<td><a href="#">Khan 김동하</a></td>
-					<td><a href="#">Canyon 김건부</a></td>
-					<td><a href="#">ShowMaker 허수</a></td>
-					<td><a href="#">Ghost 장용준</a></td>
-					<td><a href="#">BeryL 조건희</a></td>
+					<td><a href="#">Zeus 최우제</a></td>
+					<td><a href="#">Oner 문현준</a></td>
+					<td><a href="#">Faker 이상혁</a></td>
+					<td><a href="#">Gumayusi 이민형</a></td>
+					<td><a href="#">Keria 류민석</a></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td></td>
-					<td><a href="">RangJun 김상준</a></td>
 					<td></td>
 					<td></td>
+					<td><a href="">Asper 김태기</a></td>
 				</tr>
 			</table>
 			
@@ -74,9 +74,9 @@
 					<th>파이널 MVP</th>
 				</tr>
 				<tr>
-					<td><a href="">ShowMaker 허수</a>, <a href="">Pyosik 홍창현</a>, <a href="">Chovy 정지훈</a></td>
 					<td><a href="">Canyon 김건부</a></td>
-					<td><a href="">Khan 김동하</a></td>
+					<td><a href="">Keria 류민석</a></td>
+					<td><a href="">Oner 문현준</a></td>
 				</tr>
 			</table>
 		</section>
@@ -89,97 +89,97 @@
 				<th>순위</th><th colspan="2" class="team">팀</th><th class="score">승</th><th class="score">패</th><th>세트 득실</th><th>득실차</th><th>기타</th>
 				<tr>
 					<td style="background-color: #aaddff;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
-					<td>DK</td>
-					<td>12</td>
-					<td>6</td>
-					<td>29승 14패</td>
-					<td>+15</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+					<td>T1</td>
+					<td>18</td>
+					<td>0</td>
+					<td>36승 7패</td>
+					<td>+29</td>
 					<td>우승</td>
 					
 					<td style="background-color: #ccffcc;">6</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/AF.png"></td>
-					<td>AF</td>
-					<td>11</td>
-					<td>7</td>
-					<td>25승 21패</td>
-					<td>+4</td>
-					<td> - </td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/BRO.png"></td>
+					<td>BRO</td>
+					<td>8</td>
+					<td>10</td>
+					<td>21승 24패</td>
+					<td>-3</td>
+					<td>순위 결정전<br>패배</td>
 				</tr>
 				<tr>
 					<td style="background-color: #aaddff;">2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/GEN.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
 					<td>GEN</td>
-					<td>12</td>
-					<td>6</td>
-					<td>27승 19패</td>
-					<td>+8</td>
-					<td>NS 상대승<br>우세</td>
+					<td>15</td>
+					<td>3</td>
+					<td>30승 12패</td>
+					<td>+18</td>
+					<td>준우승</td>
 					
 					<td style="background-color: #FFFF99;">7</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/KT.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/KT.png"></td>
 					<td>KT</td>
 					<td>7</td>
 					<td>11</td>
-					<td>21승 25패</td>
-					<td>-4</td>
+					<td>19승 24패</td>
+					<td>-5</td>
 					<td> - </td>
 				</tr>
 				<tr>
 					<td style="background-color: #ccffcc;">3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/NS.png"></td>
-					<td>NS</td>
-					<td>12</td>
-					<td>6</td>
-					<td>27승 19패</td>
-					<td>+8</td>
-					<td>GEN 상대승<br>열세</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DK.png"></td>
+					<td>DK</td>
+					<td>11</td>
+					<td>7</td>
+					<td>27승 15패</td>
+					<td>+12</td>
+					<td> - </td>
 					
 					<td style="background-color: #FFFF99;">8</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/HLE.png"></td>
-					<td>HLE</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/NS.png"></td>
+					<td>NS</td>
 					<td>5</td>
 					<td>13</td>
-					<td>17승 26패</td>
-					<td>-9</td>
+					<td>16승 29패</td>
+					<td>-13</td>
 					<td> - </td>
 				</tr>
 				<tr>
 					<td style="background-color: #ccffcc;">4</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/T1.png"></td>
-					<td>T1</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DRX.png"></td>
+					<td>DRX</td>
 					<td>11</td>
 					<td>7</td>
-					<td>25승 19패</td>
-					<td>+6</td>
-					<td>준우승</td>
+					<td>22승 19패</td>
+					<td>+3</td>
+					<td></td>
 					
 					<td style="background-color: #FFFF99;">9</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/BRO.png"></td>
-					<td>BRO</td>
-					<td>5</td>
-					<td>13</td>
-					<td>20승 28패</td>
-					<td>-8</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/LSB.png"></td>
+					<td>LSB</td>
+					<td>4</td>
+					<td>14</td>
+					<td>11승 30패</td>
+					<td>-19</td>
 					<td> - </td>
 				</tr>
 				<tr>
 					<td style="background-color: #ccffcc;">5</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/LSB.png"></td>
-					<td>LSB</td>
-					<td>11</td>
-					<td>7</td>
-					<td>26승 21패</td>
-					<td>+5</td>
-					<td> - </td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/KDF.png"></td>
+					<td>KDF</td>
+					<td>8</td>
+					<td>10</td>
+					<td>19승 22패</td>
+					<td>-3</td>
+					<td>순위 결정전<br>승리</td>
 					
 					<td style="background-color: #FFFF99;">10</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DRX.png"></td>
-					<td>DRX</td>
-					<td>2</td>
-					<td>16</td>
-					<td>9승 34패</td>
-					<td>-25</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/HLE.png"></td>
+					<td>HLE</td>
+					<td>3</td>
+					<td>15</td>
+					<td>12승 31패</td>
+					<td>-19</td>
 					<td> - </td>
 				</tr>
 			</table>
@@ -196,31 +196,31 @@
 					<th colspan="4">PO 1라운드 1경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/NS.png"></td>
-						<td>NS</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DK.png"></td>
+						<td>DK</td>
 						<td class="score">3</td>
 					</tr>
 					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/AF.png"></td>
-						<td>AF</td>
-						<td class="score">1</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/BRO.png"></td>
+						<td>BRO</td>
+						<td class="score">0</td>
 					</tr>
 				</table>
 			
 				<table class="box">
 					<th colspan="4">PO 1라운드 2경기<br>(Bo5)</th>
-					<tr class="win">
-						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/T1.png"></td>
-						<td>T1</td>
-						<td class="score">3</td>
-					</tr>
 					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/LSB.png"></td>
-						<td>LSB</td>
-						<td class="score">0</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DRX.png"></td>
+						<td>DRX</td>
+						<td class="score">2</td>
+					</tr>
+					<tr class="win">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/KDF.png"></td>
+						<td>KDF</td>
+						<td class="score">3</td>
 					</tr>
 				</table>
 			</div>
@@ -239,31 +239,31 @@
 					<th colspan="4">PO 2라운드 1경기<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
-						<td>DK</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+						<td>T1</td>
 						<td class="score">3</td>
 					</tr>
 					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/NS.png"></td>
-						<td>NS</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/KDF.png"></td>
+						<td>KDF</td>
 						<td class="score">0</td>
 					</tr>
 				</table>
 				
 				<table class="box">
 					<th colspan="4">PO 2라운드 2경기<br>(Bo5)</th>
-					<tr class="lose">
-						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/GEN.png"></td>
-						<td>GEN</td>
-						<td class="score">1</td>
-					</tr>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/T1.png"></td>
-						<td>T1</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
+						<td>GEN</td>
 						<td class="score">3</td>
+					</tr>
+					<tr class="lose">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DK.png"></td>
+						<td>DK</td>
+						<td class="score">2</td>
 					</tr>
 				</table>
 			</div>
@@ -281,14 +281,14 @@
 					<th colspan="4">파이널<br>(Bo5)</th>
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
-						<td>DK</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+						<td>T1</td>
 						<td class="score">3</td>
 					</tr>
 					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/T1.png"></td>
-						<td>T1</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
+						<td>GEN</td>
 						<td class="score">1</td>
 					</tr>
 				</table>
@@ -303,88 +303,88 @@
 				<th>순위</th><th colspan="2" class="team">팀</th><th colspan="2" class="player">선수</th><th>포인트</th><th>포지션</th>
 				<tr>
 					<td style="background-color: #aaddff;">1</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/NS.png"></td>
-					<td>NS</td>
-					<td>Gori</td>
-					<td>김태우</td>
-					<td>1000</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
-					
-					<td>3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/BRO.png"></td>
-					<td>BRO</td>
-					<td>Lava</td>
-					<td>김태훈</td>
-					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DK.png"></td>
 					<td>DK</td>
 					<td>Canyon</td>
 					<td>김건부</td>
 					<td>1000</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 					
-					<td>7</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
-					<td>DK</td>
-					<td>Khan</td>
-					<td>김동하</td>
+					<td>6</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+					<td>T1</td>
+					<td>Keria</td>
+					<td>류민석</td>
 					<td>700</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/sup.png"></td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/T1.png"></td>
-					<td>T1</td>
-					<td>Faker</td>
-					<td>이상혁</td>
+					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
+					<td>GEN</td>
+					<td>Chovy</td>
+					<td>정지훈</td>
 					<td>1000</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
 					
-					<td>7</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/LSB.png"></td>
-					<td>LSB</td>
-					<td>Summit</td>
-					<td>박우태</td>
+					<td>6</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/KT.png"></td>
+					<td>KT</td>
+					<td>Rascal</td>
+					<td>김광희</td>
 					<td>700</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/HLE.png"></td>
-					<td>HLE</td>
-					<td>Chovy</td>
-					<td>정지훈</td>
+					<td>2</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/DRX.png"></td>
+					<td>DRX</td>
+					<td>Deft</td>
+					<td>김혁규</td>
+					<td>1000</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
+					
+					<td>8</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+					<td>T1</td>
+					<td>Gumayusi</td>
+					<td>이민형</td>
+					<td>700</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/ad.png"></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/T1.png"></td>
+					<td>T1</td>
+					<td>Faker</td>
+					<td>이상혁</td>
 					<td>900</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
 					
-					<td>9</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/DK.png"></td>
-					<td>DK</td>
-					<td>ShowMaker</td>
-					<td>허수</td>
+					<td>8</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
+					<td>GEN</td>
+					<td>Peanut</td>
+					<td>한왕호</td>
 					<td>600</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/jg.png"></td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/AF.png"></td>
-					<td>AF</td>
-					<td>Kiin</td>
-					<td>김기인</td>
+					<td>4</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/BRO.png"></td>
+					<td>BRO</td>
+					<td>Lava</td>
+					<td>김태훈</td>
 					<td>800</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
-					
-					<td>9</td>
-					<td><img src="${pageContext.request.contextPath}/resources/img/team/2021spring/GEN.png"></td>
-					<td>GEN</td>
-					<td>Bdd</td>
-					<td>곽보성</td>
-					<td>600</td>
 					<td><img src="${pageContext.request.contextPath}/resources/img/position/mid.png"></td>
+					
+					<td>8</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/team/2022spring/GEN.png"></td>
+					<td>GEN</td>
+					<td>Doran</td>
+					<td>최현준</td>
+					<td>600</td>
+					<td><img src="${pageContext.request.contextPath}/resources/img/position/top.png"></td>
 				</tr>
 			</table>
 			<div id="reference">
