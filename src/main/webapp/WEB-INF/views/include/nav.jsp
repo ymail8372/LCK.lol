@@ -9,6 +9,6 @@
 			<a href="/schedule">일정</a>
 			<a href="/placing">순위</a>
 			<a href="/champion">챔피언 통계</a>
-			<a href="/ranking?year=21worlds">역대 대회</a>
+			<a href="/ranking?year=22msi">역대 대회</a>
 		</div>
 	</nav>
