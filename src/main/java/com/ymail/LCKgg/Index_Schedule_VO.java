@@ -37,4 +37,6 @@ public class Index_Schedule_VO {
 	public void setMatch2_team2(String match2_team2) {
 		this.match2_team2 = match2_team2;
 	}
+	
+	
 }

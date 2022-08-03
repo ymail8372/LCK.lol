@@ -32,10 +32,12 @@ public class IndexController {
 		PlacingController placingController = new PlacingController();
 		Placing_teamDAO teamDAO = new Placing_teamDAO();
 		Index_Schedule_DAO scheduleDAO = new Index_Schedule_DAO();
+		Index_Version_DAO versionDAO = new Index_Version_DAO();
 		
 		List<Placing_teamVO> team_list = teamDAO.getPlace();
 		List<Index_Schedule_VO> schedule_list = scheduleDAO.getSchedule();
 		String schedule_title = scheduleDAO.getSchedule_title();
+		List<Index_Version_VO> version_list = versionDAO.getVersion();
 		
 		team_list = placingController.setPlace_team(team_list);
 		team_list = placingController.setTeam_Korea_team(team_list);
@@ -43,6 +45,7 @@ public class IndexController {
 		model.addAttribute("schedule_list", schedule_list);
 		model.addAttribute("team_list", team_list);
 		model.addAttribute("schedule_title", schedule_title);
+		model.addAttribute("version_list", version_list);
 		
 		return "home";
 	}

@@ -1,4 +1,4 @@
-var present_month = 7;
+var present_month = 8;
 var prev_month = present_month;
 
 $(document).ready( function() {

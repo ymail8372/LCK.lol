@@ -12,7 +12,7 @@
 	<groupId>com.ymail</groupId>
 	<artifactId>LCklol</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LCklol</name>
+	<name>LCKlol</name>
 	<description>LCK.lol website</description>
 	<packaging>war</packaging>
 	<properties>

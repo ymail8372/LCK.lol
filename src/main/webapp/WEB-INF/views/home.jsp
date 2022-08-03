@@ -23,7 +23,14 @@
 		<jsp:include page="/WEB-INF/views/include/ad2.jsp" flush="false"/>
 		
 		<!-- 버전 -->
-		<div id="version">일반 버전 - 12.13 , &nbsp; 대회 버전 - 12.12</div>
+		<div id="version">
+			<c:forEach items="${version_list}" var="u" varStatus="status">
+				<c:set var="current_version" value="${u.current_version}"/>
+				<c:set var="LCK_version" value="${u.LCK_version}"/>
+				일반 버전 - <c:out value="${current_version}" escapeXml="false"></c:out> , 
+				대회 버전 - <c:out value="${LCK_version}" escapeXml="false"></c:out>
+			</c:forEach>
+		</div>
 	
 		<!-- 일정 -->
 		<section id="schedule">
