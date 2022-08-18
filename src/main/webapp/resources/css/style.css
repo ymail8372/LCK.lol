@@ -19,25 +19,20 @@
 #schedule table tr td .match .team {float: left; width: 45%;}
 #schedule table tr td .match .team img {height: 45px; padding: 5px;}
 
-/* 순위 */
-#ranking {margin: 30px 0 30px 0;}
-#ranking h2 {font-size: 30px; margin-bottom: 10px;}
-#ranking table {width: 100%;}
-#ranking table tr {border-bottom: 1px solid #c2c5c9;}
-#ranking table tr:last-child {border: 0;}
-#ranking table th:nth-child(1) {width: 90px;}
-#ranking table th:nth-child(2) {width: 300px;}
-#ranking table th:nth-child(3) {width: 100px;}
-#ranking table th:nth-child(4) {width: 100px;}
-#ranking table th:nth-child(5) {width: 180px;}
-#ranking table th:nth-child(6) {width: 110px;}
-#ranking table th:nth-child(8) {width: 150px;}
-
-#ranking table td {padding: 5px;}
-#ranking table td:nth-child(2) {width: 80px; padding: 0px;}
-#ranking table td:nth-child(3) {width: 160px;}
-
-#ranking table td img {height: 45px; padding: 5px;}
-
-#ranking #reference {margin-top: 10px; text-align: right; font-size: 14px;}
-#ranking #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+/* 포스트시즌 */
+#post_season {margin: 30px 0 430px 0;}
+#post_season h2 {font-size: 30px; margin-bottom: 10px;}
+#post_season .blanc {float: left; width: 5%; text-align: center; line-height: 186px;}
+#post_season .blanc .blanc1 {width: 50%; float: left;}
+#post_season .blanc .blanc1 div {width: 100%;}
+#post_season div {float: left; width: 30%;}
+#post_season div table {width: 100%; text-align: center;}
+#post_season div table tr td {padding: 6px;}
+#post_season div table tr td img {height: 45px;}
+#post_season div table .color_td {padding: 0;}
+#post_season div table .unknown .color_td .color {width: 5px; height: 63px; background-color: #fff;}
+#post_season div table .lose .color_td .color {width: 5px; height: 63px; background-color: #BDBDBD;}
+#post_season div table .win .color_td .color {width: 5px; height: 63px; background-color: #489CFF;}
+#post_season div table .blanc {height: 70px; background: #F7F7F7;}
+#post_season div table .lose td {background-color: #ddd;}
+#post_season div table tr .score {font-size: 20px; width: 80px;}

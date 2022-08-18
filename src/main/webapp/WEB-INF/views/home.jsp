@@ -69,17 +69,50 @@
 					<c:forEach items="${schedule_list}" var="u" varStatus="status">
 						<td>
 							<div class="match">
-								<div class="match_no">match 1</div>
+								<div class="match_no">match</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match1_team1}.png">
+									<c:set var="match1_team1" value="${u.match1_team1}"/>
+									<%
+										String img1_out = "";
+										String img1_out1 = "<img src=\"/resources/img/team/2022summer/";
+										String img1_out2 = ".png\">";
+										String img1 = String.valueOf(pageContext.getAttribute("match1_team1"));
+	
+										if (!img1.equals("-")) {
+											img1_out = img1_out1 + img1 + img1_out2;
+										}
+										else {
+											img1_out = "";
+										}
+										
+										pageContext.setAttribute("img1_out", img1_out);
+									%>
+									<c:out value="${img1_out}" escapeXml="false"></c:out>
 									<div>${u.match1_team1}</div>
 								</div>
 								<div class="vs">vs</div>
 								<div class="team">
-									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match1_team2}.png">
+									<c:set var="match1_team2" value="${u.match1_team2}"/>
+									<%
+										String img2_out = "";
+										String img2_out1 = "<img src=\"/resources/img/team/2022summer/";
+										String img2_out2 = ".png\">";
+										String img2 = String.valueOf(pageContext.getAttribute("match1_team2"));
+	
+										if (!img2.equals("-")) {
+											img2_out = img2_out1 + img2 + img2_out2;
+										}
+										else {
+											img2_out = "";
+										}
+										
+										pageContext.setAttribute("img2_out", img2_out);
+									%>
+									<c:out value="${img2_out}" escapeXml="false"></c:out>
 									<div>${u.match1_team2}</div>
 								</div>
 							</div>
+							<%-- 
 							<div class="match">
 								<div class="match_no">match 2</div>
 								<div class="team">
@@ -91,63 +124,118 @@
 									<img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.match2_team2}.png">
 									<div>${u.match2_team2}</div>
 								</div>
-							</div>
+							</div> 
+							--%>
 						</td>
 					</c:forEach>
 				</tr>
 			</table>
 		</section>
 		
-		<!-- 순위 -->
-		<section id="ranking">
-			<h2>순위</h2>
-			<table class="box">
-				<th>순위</th><th colspan="2" class="team">팀</th><th class="score">승</th><th class="score">패</th><th>세트 득실</th><th>득실차</th><th>기타</th>
-				<c:forEach items="${team_list}" var="u" varStatus="status">	
-					<c:set var="place" value="${u.place}"/>
-					<c:set var="win" value="${u.win}"/>
-					<c:set var="lose" value="${u.lose}"/>
-					<c:set var="set_win" value="${u.set_win}"/>
-					<c:set var="set_lose" value="${u.set_lose}"/>
-					<tr>
-						<%
-							String place = String.valueOf(pageContext.getAttribute("place"));
-							String place_out = "";
-						
-							if (place.equals("1") || place.equals("2")) {
-								place_out = "<td style=\"background: #aaddff\">" + place + "</td>";
-							}
-							else if (place.equals("3") || place.equals("4") || place.equals("5") || place.equals("6")) {
-								place_out = "<td style=\"background: #ccffcc\">" + place + "</td>";
-							}
-							else {
-								place_out = "<td style=\"background: #ffff99\">" + place + "</td>";
-							}
-							
-							pageContext.setAttribute("place", place_out);
-						%>
-						<c:out value="${place}" escapeXml="false"></c:out>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/${u.team}.png"></td>
-						<td>${u.team_korea}</td>
-						<td>${u.win}</td>
-						<td>${u.lose}</td>
-						<td>${u.set_win}승 ${u.set_lose}패</td>
-						<td>
-							<%
-								String set_win = String.valueOf(pageContext.getAttribute("set_win"));
-								String set_lose = String.valueOf(pageContext.getAttribute("set_lose"));
-								int diff = Integer.parseInt(set_win) - Integer.parseInt(set_lose);
-								
-								pageContext.setAttribute("diff", diff);
-							%>
-							<c:out value="${diff}"></c:out>
-						</td>
-						<td>${u.etc}</td>
+		<!-- 포스트시즌 -->
+		<section id="post_season">
+			<h2>포스트시즌</h2>
+			<div>
+				<table class="box" style="margin-bottom: 50px;">
+					<th colspan="4">PO 1라운드 1경기<br>(Bo5)</th>
+					<tr class="win">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/LSB.png"></td>
+						<td>LSB</td>
+						<td class="score">3</td>
 					</tr>
-				</c:forEach>
-			</table>
-			<div id="reference">
-				<div class="reference_color" style="background-color: #AADDFF"></div><span style="border-right: 1px solid #bbb;"> : PO 2라운드 진출 &nbsp;</span><div class="reference_color" style="background-color: #ccffcc"></div><span style="border-right: 1px solid #bbb;"> : PO 1라운드 진출 &nbsp;</span><div class="reference_color" style="background-color: #FFFF99"></div><span> : 잔류 &nbsp;</span>
+					<tr class="lose">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/DRX.png"></td>
+						<td>DRX</td>
+						<td class="score">1</td>
+					</tr>
+				</table>
+			
+				<table class="box">
+					<th colspan="4">PO 1라운드 2경기<br>(Bo5)</th>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/DK.png"></td>
+						<td>DK</td>
+						<td class="score">0</td>
+					</tr>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/KT.png"></td>
+						<td>KT</td>
+						<td class="score">0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="blanc">
+				<div class="blanc1">
+					<div style="height: 116px; border-bottom: 2px solid #1C192B;"></div>
+					<div style="height: 228px; border-bottom: 2px solid #1C192B; border-right: 2px solid #1C192B"></div>
+				</div>
+				<div class="blanc1">
+					<div style="height: 116px; border-bottom: 2px solid #1C192B;"></div>
+					<div style="height: 228px; border-bottom: 2px solid #1C192B;"></div>
+				</div>
+			</div>
+			<div>
+				<table class="box" style="margin-bottom: 50px;">
+					<th colspan="4">PO 2라운드 1경기<br>(Bo5)</th>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/GEN.png"></td>
+						<td>DK</td>
+						<td class="score">0</td>
+					</tr>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
+						<td>미정</td>
+						<td class="score">0</td>
+					</tr>
+				</table>
+				
+				<table class="box">
+					<th colspan="4">PO 2라운드 2경기<br>(Bo5)</th>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/T1.png"></td>
+						<td>GEN</td>
+						<td class="score">0</td>
+					</tr>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
+						<td>미정</td>
+						<td class="score">0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="blanc">
+				<div class="blanc1">
+					<div style="height: 116px; border-bottom: 2px solid #1C192B;"></div>
+					<div style="height: 228px; border-bottom: 2px solid #1C192B; border-right: 2px solid #1C192B"></div>
+				</div>
+				<div class="blanc1">
+					<div style="height: 216px; border-bottom: 2px solid #1C192B;"></div>
+				</div>
+			</div>
+			<div>
+				<table class="box" style="margin-top: 100px;">
+					<th colspan="4">파이널<br>(Bo5)</th>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
+						<td>미정</td>
+						<td class="score">0</td>
+					</tr>
+					<tr class="unknown">
+						<td class="color_td"><div class="color"></div></td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
+						<td>미정</td>
+						<td class="score">0</td>
+					</tr>
+				</table>
 			</div>
 		</section>
 	</div>
