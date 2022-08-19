@@ -141,7 +141,7 @@
 					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/LSB.png"></td>
-						<td>LSB</td>
+						<td>리브 샌드박스</td>
 						<td class="score">3</td>
 					</tr>
 					<tr class="lose">
@@ -154,17 +154,17 @@
 			
 				<table class="box">
 					<th colspan="4">PO 1라운드 2경기<br>(Bo5)</th>
-					<tr class="unknown">
+					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/DK.png"></td>
-						<td>DK</td>
-						<td class="score">0</td>
+						<td>담원 기아</td>
+						<td class="score">3</td>
 					</tr>
-					<tr class="unknown">
+					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/KT.png"></td>
-						<td>KT</td>
-						<td class="score">0</td>
+						<td>KT 롤스터</td>
+						<td class="score">2</td>
 					</tr>
 				</table>
 			</div>
@@ -184,13 +184,13 @@
 					<tr class="unknown">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/GEN.png"></td>
-						<td>DK</td>
+						<td>젠지</td>
 						<td class="score">0</td>
 					</tr>
 					<tr class="unknown">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
-						<td>미정</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/LSB.png"></td>
+						<td>리브 샌드박스</td>
 						<td class="score">0</td>
 					</tr>
 				</table>
@@ -200,13 +200,13 @@
 					<tr class="unknown">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/T1.png"></td>
-						<td>GEN</td>
+						<td>T1</td>
 						<td class="score">0</td>
 					</tr>
 					<tr class="unknown">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
-						<td>미정</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/DK.png"></td>
+						<td>담원 기아</td>
 						<td class="score">0</td>
 					</tr>
 				</table>

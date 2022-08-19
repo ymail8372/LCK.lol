@@ -6,7 +6,7 @@
 <ins class="adsbygoogle"
      style="left: -350px; top: 150px;"
      data-ad-client="ca-pub-9052803485032468"
-     data-ad-slot="6426318720"
+     data-ad-slot="4155556216"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
