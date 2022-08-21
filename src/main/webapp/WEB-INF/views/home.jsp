@@ -181,17 +181,17 @@
 			<div>
 				<table class="box" style="margin-bottom: 50px;">
 					<th colspan="4">PO 2라운드 1경기<br>(Bo5)</th>
-					<tr class="unknown">
+					<tr class="win">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/GEN.png"></td>
 						<td>젠지</td>
-						<td class="score">0</td>
+						<td class="score">3</td>
 					</tr>
-					<tr class="unknown">
+					<tr class="lose">
 						<td class="color_td"><div class="color"></div></td>
 						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/LSB.png"></td>
 						<td>리브 샌드박스</td>
-						<td class="score">0</td>
+						<td class="score">1</td>
 					</tr>
 				</table>
 				
@@ -225,8 +225,8 @@
 					<th colspan="4">파이널<br>(Bo5)</th>
 					<tr class="unknown">
 						<td class="color_td"><div class="color"></div></td>
-						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/미정.png"></td>
-						<td>미정</td>
+						<td><img src="${pageContext.request.contextPath}/resources/img/team/2022summer/GEN.png"></td>
+						<td>GEN</td>
 						<td class="score">0</td>
 					</tr>
 					<tr class="unknown">
