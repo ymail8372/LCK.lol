@@ -50,11 +50,11 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 광고 */
 ins {display: block; position: absolute; width: 300px; height: 600px;}
 
-@media (max-width: 1780px) {
+/* @media (max-width: 1780px) {
 	ins {
 		display: none;
 	}
-}
+} */
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px; clear: both;}
